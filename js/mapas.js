@@ -30,7 +30,13 @@ function initMap() {
     
   var image = '/img/nia.png';
   var beachMarker = new google.maps.Marker({
-         position: {lat: -16.457389199999998, lng: -68.5315308},
+         position: {lat: -16.457389199999998, lng: -71.5315301},
+         map: map,
+         icon: image
+  });
+   var image = '/img/nia.png';
+  var beachMarker = new google.maps.Marker({
+         position: {lat: -16.457389199999998, lng: -71.5315301},
          map: map,
          icon: image
   });
